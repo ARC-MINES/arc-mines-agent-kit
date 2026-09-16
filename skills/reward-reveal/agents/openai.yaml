@@ -1,0 +1,4 @@
+interface:
+  display_name: "Reward Reveal"
+  short_description: "Build retry-safe rewards with precise reveal UX"
+  default_prompt: "Use $reward-reveal to implement a server-selected opening flow with complete micro-UX and recovery checks."

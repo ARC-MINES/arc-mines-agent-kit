@@ -1,0 +1,16 @@
+{
+  "name": "arc-mines-agent-kit",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Agent workflow, micro-UX research, and server performance references for Arc Mines ore reveals",
+  "type": "module",
+  "engines": {
+    "node": ">=22"
+  },
+  "scripts": {
+    "test": "node --test skills/*/examples/*.test.mjs",
+    "demo": "node scripts/demo.mjs",
+    "bench": "node scripts/benchmark.mjs"
+  },
+  "license": "MIT"
+}
